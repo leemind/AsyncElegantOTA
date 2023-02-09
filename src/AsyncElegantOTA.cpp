@@ -106,10 +106,6 @@ void AsyncElegantOtaClass::begin(AsyncWebServer *server, const char* username, c
     });
 }
 
-// deprecated, keeping for backward compatibility
-void AsyncElegantOtaClass::loop() {
-}
-
 void AsyncElegantOtaClass::restart() {
     yield();
     delay(1000);
